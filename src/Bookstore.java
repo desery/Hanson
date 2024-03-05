@@ -94,6 +94,26 @@ public class Bookstore {
         public double getBookPrice() {
             return bookPrice;
         }
+    
+    
+        //展示书架
+    public void displayBookDetails() {  
+        System.out.println("Book ID: " + bookID);  
+        System.out.println("Book Name: " + bookName);  
+        System.out.println("Author: " + bookAuthor);  
+        System.out.println("Pages: " + bookPages);  
+        System.out.println("Genre: " + bookGenre);  
+        System.out.println("Rating: " + bookRating);  
+        System.out.println("Published Year: " + bookPublishedYear);  
+        System.out.println("Publisher: " + bookPublisher);  
+        System.out.println("Price: $" + bookPrice);  
+        System.out.println(); // Empty line for better formatting  
+    
+    
+    
+    
+    
+    
     }
 
     public String getOrderedBook() {
@@ -140,8 +160,7 @@ public class Bookstore {
     System.out.println("");
     String emailAddress = scanner.nextLine();
     
-    //展示书架
-
+    
     
     
     //输入要购买的书

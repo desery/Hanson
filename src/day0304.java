@@ -21,3 +21,29 @@ public class bubbleSort {
         }
     }
 }
+
+
+
+public void addStudents(int entries, int i){
+    System.out.println("\n" + "Please enter the details for Student #:" + (i+1) + "\n");
+     
+    System.out.println("\n" + "Please enter the ID for Student #:" + "\n");
+     String id = reader.nextLine();
+     setStudentID(id);
+         
+     System.out.println("Please enter the name for Student #:"  + "\n");
+     String name = reader.nextLine();
+     setStudentName(name);
+     
+     System.out.println("Please enter the gender for Student #:" + "\n");
+     char gender = reader.nextLine().charAt(0);
+     setStudentGender(gender);
+     
+     System.out.println("Please enter the address for Student #:" + "\n");
+     String address = reader.nextLine();
+     setStudentAddress(address);
+     
+     System.out.println("Please enter the status for Student #:" + "\n");
+     String status = reader.nextLine();
+     setStudentStatus(status);
+     } 
